@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>net.bounceme.monkee.monarcula</id>
+    <name>Monarcula Theme</name>
+    <vendor email="allround.email@gmail.com" url="https://github.com/ValentinLutz/Monarcula.git">Valentin Lutz</vendor>
+
+    <description><![CDATA[
+    A dark theme based on Monokai and Darcula.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="be56f536-14e0-4606-8d4c-ebfe9132ec4b" path="/META-INF/Monarcula.theme.json"/>
+    </extensions>
+</idea-plugin>
