@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.intellij") version "0.4.18"
+    id("org.jetbrains.intellij") version "0.7.3"
     java
 }
 
@@ -10,13 +10,9 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testCompile("junit", "junit", "4.12")
-}
-
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = "2019.3.4"
+    version = "2021.1"
 }
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_11
