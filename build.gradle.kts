@@ -1,10 +1,12 @@
 plugins {
     id("org.jetbrains.intellij") version "0.7.3"
+    id("org.jetbrains.changelog") version "1.1.2"
     java
 }
 
 group = "net.bounceme.monkee"
-version = "1.0.0"
+changelog.version = "1.0.1"
+version = changelog.version
 
 repositories {
     mavenCentral()
@@ -16,9 +18,4 @@ intellij {
 }
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_11
-}
-tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
-    changeNotes("""
-
-    """)
 }
