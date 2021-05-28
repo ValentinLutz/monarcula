@@ -7,7 +7,8 @@ plugins {
 }
 
 group = "net.bounceme.monkee"
-version = "1.0.1"
+changelog.version = "1.0.2"
+version = changelog.version
 
 repositories {
     mavenCentral()
