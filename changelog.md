@@ -1,14 +1,5 @@
 # Changelog
 
-## [1.0.1]
+## [Unreleased]
 ### Added
-
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
+- Add color scheme support for golang
