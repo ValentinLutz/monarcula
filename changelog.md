@@ -1,17 +1,9 @@
 # Changelog
 
 ## [Unreleased]
-### Added
-
 ### Changed
+- Increase Intellij version to 2021.2
 
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 ## [1.0.1]
 ### Added
 - Add color scheme support for golang
