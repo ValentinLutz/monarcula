@@ -13,6 +13,10 @@
 
 ### Security
 ## [1.0.3]
+### Fixed
+- Remove upper Intellij version limitation
+
+## [1.0.2]
 ### Changed
 - Increase Intellij version to 2021.2
 
