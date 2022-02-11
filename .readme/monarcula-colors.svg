@@ -1,119 +1,129 @@
-<svg width="1360" height="240" xmlns="http://www.w3.org/2000/svg">
+<svg width="1440px" height="240px" xmlns="http://www.w3.org/2000/svg">
 
     <style>
+        text {
+        font-family: consolas;
+        font-weight: bold;
+        dominant-baseline: middle;
+        text-anchor: middle;
+        }
+
         .light-text {
         fill: #FFFFFF;
         }
+
         .dark-text {
         fill: #000000;
         }
+
         .name-text {
-        font: bold 30px monospace;
+        font-size: 32px;
         opacity: 0.5;
         }
+
         .hex-text {
-        font: bold 20px monospace;
+        font-size: 20px;
         opacity: 0.5;
         }
     </style>
 
     <g>
-        <svg class="light-text" id="bg0" width="170" height="120" y="0" x="0">
+        <svg class="light-text" width="12.5%" height="50%" y="0%" x="0%">
             <rect width="100%" height="100%" fill="#232628"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">bg0</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#232628</text>
+            <text class="name-text" x="50%" y="50%" font-size-adjust="200px">bg0</text>
+            <text class="hex-text" x="50%" y="80%">#232628</text>
         </svg>
 
-        <svg class="dark-text" id="magenta" width="170" height="120" y="0" x="170">
-            <rect width="100%" height="100%" fill="#050506"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">bg1</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">TBD</text>
+        <svg class="light-text" width="12.5%" height="50%" y="0%" x="12.5%">
+            <rect width="101%" height="101%" fill="#3C3F41"/>
+            <text class="name-text" x="50%" y="50%">bg1</text>
+            <text class="hex-text" x="50%" y="80%">3C3F41</text>
         </svg>
 
-        <svg class="dark-text" id="violet" width="170" height="120" y="0" x="340">
-            <rect width="100%" height="100%" fill="#050506"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">bg2</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">TBD</text>
+        <svg class="dark-text" width="12.5%" height="50%" y="0%" x="25%">
+            <rect width="101%" height="101%" fill="#070708"/>
+            <text class="name-text" x="50%" y="50%">bg2</text>
+            <text class="hex-text" x="50%" y="80%">TBD</text>
         </svg>
 
-        <svg class="dark-text" id="blue" width="170" height="120" y="0" x="510">
-            <rect width="100%" height="100%" fill="#050506"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">bg3</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">TBD</text>
+        <svg class="dark-text" width="12.5%" height="50%" y="0%" x="37.5%">
+            <rect width="101%" height="101%" fill="#070708"/>
+            <text class="name-text" x="50%" y="50%">bg3</text>
+            <text class="hex-text" x="50%" y="80%">TBD</text>
         </svg>
 
-        <svg class="dark-text" id="cyan" width="170" height="120" y="0" x="680">
-            <rect width="100%" height="100%" fill="#050506"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">fg3</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">TBD</text>
+        <svg class="dark-text" width="12.5%" height="50%" y="0%" x="50%">
+            <rect width="101%" height="101%" fill="#070708"/>
+            <text class="name-text" x="50%" y="50%">fg3</text>
+            <text class="hex-text" x="50%" y="80%">TBD</text>
         </svg>
 
-        <svg class="dark-text" id="green" width="170" height="120" y="0" x="850">
-            <rect width="100%" height="100%" fill="#050506"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">fg2</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">TBD</text>
+        <svg class="dark-text" width="12.5%" height="50%" y="0%" x="62.5%">
+            <rect width="101%" height="101%" fill="#070708"/>
+            <text class="name-text" x="50%" y="50%">fg2</text>
+            <text class="hex-text" x="50%" y="80%">TBD</text>
         </svg>
 
-        <svg class="dark-text" id="yellow" width="170" height="120" y="0" x="1020">
-            <rect width="100%" height="100%" fill="#838E8F"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">fg1</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#838E8F</text>
+        <svg class="dark-text" width="12.5%" height="50%" y="0%" x="75%">
+            <rect width="101%" height="101%" fill="#838E8F"/>
+            <text class="name-text" x="50%" y="50%">fg1</text>
+            <text class="hex-text" x="50%" y="80%">#838E8F</text>
         </svg>
 
-        <svg class="dark-text" id="orange" width="170" height="120" y="0" x="1190">
+        <svg class="dark-text" width="12.5%" height="50%" y="0%" x="87.5%">
             <rect width="100%" height="100%" fill="#FDF9F3"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">fg0</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#FDF9F3</text>
+            <text class="name-text" x="50%" y="50%">fg0</text>
+            <text class="hex-text" x="50%" y="80%">#FDF9F3</text>
         </svg>
     </g>
 
     <g>
-        <svg class="dark-text" id="red" width="170" height="120" y="120" x="0">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="0">
             <rect width="100%" height="100%" fill="#F92672"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">red</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#F92672</text>
+            <text class="name-text" x="50%" y="50%">red</text>
+            <text class="hex-text" x="50%" y="80%">#F92672</text>
         </svg>
 
-        <svg class="dark-text" id="magenta" width="170" height="120" y="120" x="170">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="12.5%">
             <rect width="100%" height="100%" fill="#FD5FF0"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">magenta</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#FD5FF0</text>
+            <text class="name-text" x="50%" y="50%">magenta</text>
+            <text class="hex-text" x="50%" y="80%">#FD5FF0</text>
         </svg>
 
-        <svg class="dark-text" id="violet" width="170" height="120" y="120" x="340">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="25%">
             <rect width="100%" height="100%" fill="#AE81FF"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">violet</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#AE81FF</text>
+            <text class="name-text" x="50%" y="50%">violet</text>
+            <text class="hex-text" x="50%" y="80%">#AE81FF</text>
         </svg>
 
-        <svg class="dark-text" id="blue" width="170" height="120" y="120" x="510">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="37.5%">
             <rect width="100%" height="100%" fill="#66D9EF"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">blue</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#66D9EF</text>
+            <text class="name-text" x="50%" y="50%">blue</text>
+            <text class="hex-text" x="50%" y="80%">#66D9EF</text>
         </svg>
 
-        <svg class="dark-text" id="cyan" width="170" height="120" y="120" x="680">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="50%">
             <rect width="100%" height="100%" fill="#A1EFE4"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">cyan</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#A1EFE4</text>
+            <text class="name-text" x="50%" y="50%">cyan</text>
+            <text class="hex-text" x="50%" y="80%">#A1EFE4</text>
         </svg>
 
-        <svg class="dark-text" id="green" width="170" height="120" y="120" x="850">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="62.5%">
             <rect width="100%" height="100%" fill="#A6E22E"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">green</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#A6E22E</text>
+            <text class="name-text" x="50%" y="50%">green</text>
+            <text class="hex-text" x="50%" y="80%">#A6E22E</text>
         </svg>
 
-        <svg class="dark-text" id="yellow" width="170" height="120" y="120" x="1020">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="75%">
             <rect width="100%" height="100%" fill="#E6DB71"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">yellow</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#E6DB71</text>
+            <text class="name-text" x="50%" y="50%">yellow</text>
+            <text class="hex-text" x="50%" y="80%">#E6DB71</text>
         </svg>
 
-        <svg class="dark-text" id="orange" width="170" height="120" y="120" x="1190">
+        <svg class="dark-text" width="12.5%" height="50%" y="50%" x="87.5%">
             <rect width="100%" height="100%" fill="#DF971F"/>
-            <text class="name-text" x="50%" y="50%" text-anchor="middle">orange</text>
-            <text class="hex-text" x="50%" y="80%" text-anchor="middle">#DF971F</text>
+            <text class="name-text" x="50%" y="50%">orange</text>
+            <text class="hex-text" x="50%" y="80%">#DF971F</text>
         </svg>
     </g>
 
