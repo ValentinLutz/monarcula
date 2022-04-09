@@ -10,8 +10,8 @@ default_colors = {
     'red': 'F92672',
     'magenta': 'FD5FF0',
     'violet': 'AE81FF',
-    'blue': '66BFEF',
-    'cyan': 'A1EFE4',
+    'blue': '6593EF',
+    'cyan': '66D9EF',
     'green': 'A6E22E',
     'yellow': 'E6DB71',
     'orange': 'FD971F',
@@ -33,7 +33,7 @@ def create_theme(theme_name: str, colors: dict):
 
 
 create_theme(
-    'MonarculaSoftTest', {
+    'MonarculaSoft', {
         'bg0': '232628',
         'bg1': '3C3F41',
         'bg2': 'TBD',
@@ -45,7 +45,7 @@ create_theme(
         'red': 'EB6288',
         'magenta': 'EB8AE4',
         'violet': 'AB9DF2',
-        'blue': '6399EB',
+        'blue': '77A4E8',
         'cyan': '78DCE8',
         'green': 'A9DC76',
         'yellow': 'F4D966',
