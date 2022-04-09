@@ -97,9 +97,9 @@
         </svg>
 
         <svg class="dark-text" width="12.5%" height="50%" x="37.5%" y="50%">
-            <rect width="100%" height="100%" fill="#6399EB"/>
+            <rect width="100%" height="100%" fill="#77A4E8"/>
             <text class="name-text" x="50%" y="50%">blue</text>
-            <text class="hex-text" x="50%" y="80%">#6399EB</text>
+            <text class="hex-text" x="50%" y="80%">#77A4E8</text>
         </svg>
 
         <svg class="dark-text" width="12.5%" height="50%" x="50%" y="50%">
