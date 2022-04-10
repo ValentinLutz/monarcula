@@ -13,8 +13,9 @@
 
 ### Security
 
-## [1.0.4]
+## [1.1.0]
 ### Changed
+- Update golang color scheme
 - Update Monarcula base colors
 - Update Monarcula Soft base colors
 

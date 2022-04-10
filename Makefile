@@ -7,9 +7,10 @@ compile:: ## Build all gradle modules
 	./gradlew assemble
 
 build:: ## Build the plugin
-	./gradlew patchPluginXml buildPlugin patchChangelog
+	./gradlew buildPlugin
 
 generate:: ## Generate other themes
 	python3 .make/replace-colors.py
 
-release:: build changelog-update ## Release a new version
+release::  ## Release a new version
+	./gradlew patchPluginXml buildPlugin patchChangelog
