@@ -2,6 +2,7 @@
   "name": "Monarcula Island",
   "dark": true,
   "author": "Valentin Lutz",
+  "parentTheme": "Islands Dark",
   "editorScheme": "/META-INF/MonarculaIsland.xml",
   "ui": {
   }

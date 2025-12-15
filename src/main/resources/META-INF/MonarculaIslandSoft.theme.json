@@ -2,6 +2,7 @@
   "name": "Monarcula Island Soft",
   "dark": true,
   "author": "Valentin Lutz",
+  "parentTheme": "Islands Dark",
   "editorScheme": "/META-INF/MonarculaIslandSoft.xml",
   "ui": {
   }

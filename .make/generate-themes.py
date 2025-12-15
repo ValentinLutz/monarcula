@@ -74,6 +74,13 @@ common_colors = {
 # Theme Definitions
 # ============================================================================
 
+# Parent theme mapping for theme.json (UI inheritance)
+parent_themes = {
+    'darcula': 'Darcula',
+    'dark': 'Dark',
+    'island': 'Islands Dark',
+}
+
 themes = [
     {
         'name': 'Monarcula',
@@ -146,10 +153,12 @@ def generate_xml(template: str, colors: dict) -> str:
 
 def generate_theme_json(theme: dict) -> str:
     """Generate theme.json metadata file."""
+    parent_theme = parent_themes[theme['background']]
     return f'''{{
   "name": "{theme['display_name']}",
   "dark": true,
   "author": "Valentin Lutz",
+  "parentTheme": "{parent_theme}",
   "editorScheme": "/META-INF/{theme['file_name']}.xml",
   "ui": {{
   }}

@@ -2,6 +2,7 @@
   "name": "Monarcula",
   "dark": true,
   "author": "Valentin Lutz",
+  "parentTheme": "Darcula",
   "editorScheme": "/META-INF/Monarcula.xml",
   "ui": {
   }
