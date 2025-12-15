@@ -3,32 +3,42 @@ version = "2.0.0"
 
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.3.1"
-    id("org.jetbrains.changelog") version "1.3.1"
+    id("org.jetbrains.intellij.platform") version "2.10.5"
+    id("org.jetbrains.changelog") version "2.5.0"
 }
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
-intellij {
-    version.set("2025.3")
-    updateSinceUntilBuild.set(false)
+// See https://github.com/JetBrains/intellij-platform-gradle-plugin
+dependencies {
+    intellijPlatform {
+        intellijIdea("2025.3")
+        pluginVerifier()
+    }
 }
 
 // See https://github.com/JetBrains/gradle-changelog-plugin
 changelog {
-    version.set(project.version.toString())
+    version = project.version.toString()
 }
 
 tasks {
     patchPluginXml {
-        changeNotes.set(changelog.getUnreleased().toHTML())
+        changeNotes = provider {
+            changelog.renderItem(
+                changelog.getUnreleased().withHeader(false).withEmptySections(false),
+                org.jetbrains.changelog.Changelog.OutputType.HTML
+            )
+        }
     }
 }
