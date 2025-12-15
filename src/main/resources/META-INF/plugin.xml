@@ -12,8 +12,6 @@
     <ul>
       <li><b>Monarcula</b> - Darcula with vibrant Monokai colors</li>
       <li><b>Monarcula Soft</b> - Darcula with softer, muted colors</li>
-      <li><b>Monarcula Dark</b> - Dark with vibrant Monokai colors</li>
-      <li><b>Monarcula Dark Soft</b> - Dark with softer colors</li>
       <li><b>Monarcula Island</b> - Island Dark with vibrant Monokai colors</li>
       <li><b>Monarcula Island Soft</b> - Island Dark with softer colors</li>
     </ul>
@@ -26,8 +24,6 @@
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="be56f536-14e0-4606-8d4c-ebfe9132ec4b" path="/META-INF/Monarcula.theme.json"/>
     <themeProvider id="928d597c-163f-4b52-a0ca-797b55ba752d" path="/META-INF/MonarculaSoft.theme.json"/>
-    <themeProvider id="e9c5a0f3-7f4d-6b1c-d8g6-3e0f1c2g4h5d" path="/META-INF/MonarculaDark.theme.json"/>
-    <themeProvider id="f0d6b1g4-8g5e-7c2d-e9h7-4f1g2d3h5i6e" path="/META-INF/MonarculaDarkSoft.theme.json"/>
     <themeProvider id="c7a3e8f1-5d2b-4f9a-b6e4-1c8d9a0f2e3b" path="/META-INF/MonarculaIsland.theme.json"/>
     <themeProvider id="d8b4f9e2-6e3c-5a0b-c7f5-2d9e0b1f3f4c" path="/META-INF/MonarculaIslandSoft.theme.json"/>
   </extensions>

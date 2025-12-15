@@ -14,18 +14,6 @@ Darcula with softer, muted colors
 
 <img src="https://raw.githubusercontent.com/ValentinLutz/monarcula/master/.readme/monarcula-soft-colors.svg" alt="Monarcula Soft colors">
 
-## Monarcula Dark
-
-IntelliJ Dark with vibrant Monokai colors
-
-<img src="https://raw.githubusercontent.com/ValentinLutz/monarcula/master/.readme/monarcula-dark-colors.svg" alt="Monarcula Dark colors">
-
-## Monarcula Dark Soft
-
-IntelliJ Dark with softer colors
-
-<img src="https://raw.githubusercontent.com/ValentinLutz/monarcula/master/.readme/monarcula-dark-soft-colors.svg" alt="Monarcula Dark Soft colors">
-
 ## Monarcula Island
 
 Island Dark with vibrant Monokai colors

@@ -50,16 +50,10 @@ backgrounds = {
         'bg3': '4e5254',
     },
     'island': {
-        'bg0': '1e1f22',
-        'bg1': '26282e',
-        'bg2': '2e3135',
-        'bg3': '3e4145',
-    },
-    'dark': {
-        'bg0': '2b2d30',
-        'bg1': '35373a',
-        'bg2': '43454a',
-        'bg3': '55575c',
+        'bg0': '1c1e20',
+        'bg1': '252729',
+        'bg2': '313337',
+        'bg3': '3d4044',
     },
 }
 
@@ -77,7 +71,6 @@ common_colors = {
 # Parent theme mapping for theme.json (UI inheritance)
 parent_themes = {
     'darcula': 'Darcula',
-    'dark': 'Dark',
     'island': 'Islands Dark',
 }
 
@@ -94,20 +87,6 @@ themes = [
         'file_name': 'MonarculaSoft',
         'display_name': 'Monarcula Soft',
         'background': 'darcula',
-        'colors': 'soft',
-    },
-    {
-        'name': 'Monarcula Dark',
-        'file_name': 'MonarculaDark',
-        'display_name': 'Monarcula Dark',
-        'background': 'dark',
-        'colors': 'vibrant',
-    },
-    {
-        'name': 'Monarcula Dark Soft',
-        'file_name': 'MonarculaDarkSoft',
-        'display_name': 'Monarcula Dark Soft',
-        'background': 'dark',
         'colors': 'soft',
     },
     {

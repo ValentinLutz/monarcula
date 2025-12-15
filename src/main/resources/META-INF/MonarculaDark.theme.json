@@ -1,9 +1,0 @@
-{
-  "name": "Monarcula Dark",
-  "dark": true,
-  "author": "Valentin Lutz",
-  "parentTheme": "Dark",
-  "editorScheme": "/META-INF/MonarculaDark.xml",
-  "ui": {
-  }
-}
