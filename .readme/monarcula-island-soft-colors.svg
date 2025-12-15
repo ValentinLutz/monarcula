@@ -29,31 +29,31 @@
 
   <g>
     <svg class="light-text" width="12.5%" height="50%" x="0%" y="0%">
-      <rect width="100%" height="100%" fill="#232628"/>
+      <rect width="100%" height="100%" fill="#1E1F22"/>
       <text class="name-text" x="50%" y="50%">bg0</text>
-      <text class="hex-text" x="50%" y="80%">#232628</text>
+      <text class="hex-text" x="50%" y="80%">#1E1F22</text>
     </svg>
 
     <svg class="light-text" width="12.5%" height="50%" x="12.5%" y="0%">
-      <rect width="100%" height="100%" fill="#2D3032"/>
+      <rect width="100%" height="100%" fill="#26282E"/>
       <text class="name-text" x="50%" y="50%">bg1</text>
-      <text class="hex-text" x="50%" y="80%">#2D3032</text>
+      <text class="hex-text" x="50%" y="80%">#26282E</text>
     </svg>
 
     <svg class="light-text" width="12.5%" height="50%" x="25%" y="0%">
-      <rect width="100%" height="100%" fill="#3C3F41"/>
+      <rect width="100%" height="100%" fill="#2E3135"/>
       <text class="name-text" x="50%" y="50%">bg2</text>
-      <text class="hex-text" x="50%" y="80%">#3C3F41</text>
+      <text class="hex-text" x="50%" y="80%">#2E3135</text>
     </svg>
 
     <svg class="light-text" width="12.5%" height="50%" x="37.5%" y="0%">
-      <rect width="100%" height="100%" fill="#4E5254"/>
+      <rect width="100%" height="100%" fill="#3E4145"/>
       <text class="name-text" x="50%" y="50%">bg3</text>
-      <text class="hex-text" x="50%" y="80%">#4E5254</text>
+      <text class="hex-text" x="50%" y="80%">#3E4145</text>
     </svg>
 
     <svg class="light-text" width="12.5%" height="50%" x="50%" y="0%">
-      <rect width="100%" height="100%" fill="#232628"/>
+      <rect width="100%" height="100%" fill="#1E1F22"/>
     </svg>
 
     <svg class="light-text" width="12.5%" height="50%" x="62.5%" y="0%">
