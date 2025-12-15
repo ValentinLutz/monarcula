@@ -1,0 +1,8 @@
+{
+  "name": "Monarcula Dark",
+  "dark": true,
+  "author": "Valentin Lutz",
+  "editorScheme": "/META-INF/MonarculaDark.xml",
+  "ui": {
+  }
+}

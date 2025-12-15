@@ -1,5 +1,5 @@
 group = "net.bounceme.monkee"
-version = "1.1.1"
+version = "2.0.0"
 
 plugins {
     id("java")
@@ -18,7 +18,7 @@ java {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version.set("2021.2")
+    version.set("2025.3")
     updateSinceUntilBuild.set(false)
 }
 
